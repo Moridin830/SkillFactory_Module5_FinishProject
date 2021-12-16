@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Module5_FinishProject
 {
+    /// <summary>
+    /// Класс для описания заказа покупателя. Формируется для клиента-физического лица.
+    /// </summary>
     internal class CustomerOrder : Order<Client>
     {
 
@@ -47,7 +50,7 @@ namespace Module5_FinishProject
             this.Description = Description;
             Status = OrderStatuses.Created;
             ItemList = Items;
-            this.Customer = Customer;           
+            this.Customer = Customer;
         }
 
         public void AddItem(OrderItem Item)

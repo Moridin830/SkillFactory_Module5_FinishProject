@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Module5_FinishProject
 {
+    /// <summary>
+    /// Класс для описания доставки до пункта выдачи. Доступен для физического лица
+    /// </summary>
     internal class PickPointDelivery : Delivery<Client>
     {
-        public PickPointDelivery(Client Customer)
+        public PickPointDelivery(Reference_Information.Address PickPointAddress)
         {
-            Address = Customer.DeliveryAddress;
+            Address = PickPointAddress;
         }
     }
 }

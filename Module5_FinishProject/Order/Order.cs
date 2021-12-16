@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Module5_FinishProject
 {
+    /// <summary>
+    /// Абстрактный класс для описания заказа покупателя. Может быть сформирован в зависимости
+    /// от типа покупателя (организация/физическое лицо)
+    /// </summary>
+    /// <typeparam name="TCustomer"></typeparam>
     abstract internal class Order<TCustomer>
     {
 
@@ -83,6 +88,8 @@ namespace Module5_FinishProject
         }
 
         public TCustomer Customer;
+
+        public Delivery<TCustomer> Delivery;
     }
 
     internal static class OrderExtension

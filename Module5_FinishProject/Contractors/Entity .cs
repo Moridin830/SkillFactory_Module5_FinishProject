@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Module5_FinishProject
 {
+    /// <summary>
+    /// Класс для описания организаций
+    /// </summary>
     internal class Entity 
     {
         public int Id { get; set; }

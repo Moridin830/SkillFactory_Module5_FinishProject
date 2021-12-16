@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Module5_FinishProject.Reference_Information
 {
+    /// <summary>
+    /// Должности
+    /// </summary>
     enum Positions : byte
     {
         Manager,

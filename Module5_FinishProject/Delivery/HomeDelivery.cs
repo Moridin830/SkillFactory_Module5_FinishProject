@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Module5_FinishProject
 {
+    /// <summary>
+    /// Класс для описания доставки до конкретного адреса. Доступен для организации и физического лица
+    /// </summary>
+    /// <typeparam name="TCustomer"></typeparam>
     internal class HomeDelivery<TCustomer> : Delivery<TCustomer>
     {
         public HomeDelivery(Client Customer)

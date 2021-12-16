@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Module5_FinishProject
 {
+    /// <summary>
+    /// Абстрактный класс для описания человека
+    /// </summary>
     internal abstract class Person
     {
         public string Name;

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Module5_FinishProject.Reference_Information
 {
+    /// <summary>
+    /// Класс для описания почтового адреса
+    /// </summary>
     internal class Address
     {
         public string PostalCode
